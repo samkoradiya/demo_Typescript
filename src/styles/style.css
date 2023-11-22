@@ -1,0 +1,49 @@
+.wrapper{@apply  mx-auto max-w-7xl px-5;}
+
+/* button style css start  */
+.primary-button{@apply bg-blue-1 duration-500 text-[16px] border-[1px] leading-[22.4px] capitalize text-white-1 font-medium bg-[#1597E4] rounded-[6px] px-[16px] py-[8px] border-blue-1 border-solid;}
+.primary-button:hover{@apply bg-transparent text-blue-1 border-blue-1;}
+
+.secondary-button{@apply bg-white-1 duration-500 text-[16px] leading-[22.4px] capitalize text-blue-1 font-medium border-blue-1 border-[1px] border-solid border-[1px] rounded-[6px] px-[16px] py-[8px];}
+.secondary-button:hover{@apply bg-blue-1 text-white-1 border-blue-1;}
+
+.form{@apply w-full mb-[50px];}
+.form-wrapper{@apply max-w-[577px] mx-auto bg-white-1 p-[32px] rounded-[10px] border-[1px] border-gray-1 border-solid;}
+.form-header{@apply flex justify-between w-full items-center mb-[24px];}
+.form-header label{@apply text-[20px] leading-[28px] font-normal  text-[#182021]; }
+.form-header p{@apply text-[16px] font-medium leading-[28px] text-[#182021]; }
+.step1{@apply w-full flex flex-col;}
+.step1 .form-row{@apply w-full flex flex-col mb-[24px];}
+.step1 .form-row label,.step1 .form-row-group label{@apply text-[14px] font-medium leading-[20px] inline-block mb-[4px];}
+.step1 .form-row label > span{@apply text-red-1 ml-[1px];}
+.form-control{@apply border-gray-1 border-solid border-[1px] rounded-[5px] py-[8px] px-[12px] text-[14px] leading-[18.4px];}
+.form-control::placeholder{@apply text-[#7A7A7A];}
+.form-control:focus{@apply outline-none;}
+.step1 .form-row-group{@apply flex flex-row mx-[-12px] items-end mb-[24px];}
+.step1 .form-row-group .form-group{@apply flex flex-col w-[50%] px-[12px];}
+.form-radio-row{@apply flex flex-row py-[8px];}
+.form-radio-row .radio-button{@apply flex flex-row-reverse cursor-pointer;}
+.form-radio-row .radio-button:not(:last-child){@apply mr-[16px];}
+.form-radio-row label{@apply m-[0] text-[#7A7A7A] text-[14px] leading-[20px] font-normal inline-block cursor-pointer !important;}
+.form-radio-row .radio-control{@apply appearance-none cursor-pointer rounded-[100px] w-[20px] h-[20px] border-gray-1 border-[2px] border-solid mr-[4px];}
+.form-radio-row .radio-control:checked{@apply border-blue-1 bg-blue-1;}
+.button-row{@apply mt-[71px] w-full flex justify-end;}
+
+/* card css start  */
+.card-cover{@apply w-full bg-gray-3 overflow-hidden;}
+.card-list{@apply flex flex-row flex-wrap mx-[-41px];}
+.card-col{@apply w-[50%] px-[41px] pt-[30px] pb-[49px];}
+.card{@apply flex flex-row w-full py-[16px] px-[24px] w-[100%] rounded-[10px] border-solid border-[1px] border-gray-2 bg-white-1;}
+.card .company-logo{@apply flex w-[48px] h-[48px] overflow-hidden rounded-[5px];}
+.card .company-logo img{@apply w-full h-full object-cover ;}
+.job-details{width: calc(100% - 48px);@apply pl-[8px];}
+.job-heading{@apply flex flex-col w-full mb-[24px];}
+.job-heading h2{@apply text-black-1 text-[24px] leading-[32px] font-normal; }
+.job-heading h3{@apply text-black-1 text-[16px] leading-[24px] font-normal;}
+.job-heading p{@apply text-[#7A7A7A] text-[16px] leading-[24px] font-normal;}
+.job-descirption p{@apply text-[#212427] text-[16px] leading-[24px] font-normal mb-[8px];}
+.card-button{@apply flex flex-row mt-[23px];}
+
+
+
+
